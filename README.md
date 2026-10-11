@@ -2,17 +2,26 @@
 
 Official website repository for SEVEN-MOTION, an AI-first software engineering studio based in Kenya.
 
+## Local development
+
+Requires Node.js 18 or later.
+
+```bash
+npm install
+npm run dev
+```
+
+Use `npm run build` to create a production build in `dist/`.
+
+## Repository structure
+
+- `src/` — editable React application source and styles
+- `index.html` — Vite application entry point
+- `package.json` — scripts and dependencies
+
 ## About
 
 SEVEN-MOTION builds software products and tailored digital solutions. Our engagement model begins with a free 30-minute consultation, followed by a KES 5,000 discovery consultation for scoped implementation work.
-
-## Repository status
-
-The website source is currently stored as `seven-motion.zip`. The repository has not yet been normalized into an editable source tree.
-
-## Planned structure
-
-Once normalized, the repository should include the application source, dependency manifest, configuration, assets, and clear local-development instructions. The packaged archive should be replaced or retained only when there is a clear archival need.
 
 ## Contributing
 
@@ -26,7 +35,3 @@ Once normalized, the repository should include the application source, dependenc
 - Glowify AI
 - NailBook AI
 - SHADOWCHART AI
-
-## Contact
-
-For project discussions, start with a consultation through the SEVEN-MOTION website.

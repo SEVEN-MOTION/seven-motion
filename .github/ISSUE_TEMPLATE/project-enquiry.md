@@ -2,7 +2,6 @@
 name: Project enquiry
 about: Share a software or AI workflow problem for SEVEN-MOTION to review
 title: "[Project enquiry] "
-labels: ["project-enquiry"]
 assignees: []
 ---
 

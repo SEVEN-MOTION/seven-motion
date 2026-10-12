@@ -1,47 +1,50 @@
 # SEVEN-MOTION
 
-Official website repository for SEVEN-MOTION, an AI-first software engineering studio based in Kenya.
+SEVEN-MOTION is an AI-first software engineering studio based in Kenya, building software products and tailored digital solutions.
 
-## About
+This repository contains the editable website source. The original `seven-motion.zip` archive is intentionally retained for now as a reference until its contents have been compared with the normalized source.
 
-SEVEN-MOTION builds software products and tailored digital solutions. Our engagement model begins with a free 30-minute consultation, followed by a KES 5,000 discovery consultation for scoped implementation work.
+## Stack
 
-## Repository status
+- React 18
+- Vite 5
+- Plain CSS with responsive layouts and reduced-motion support
+- GitHub Actions for build and smoke-test checks
+- Vercel for deployment previews
 
-The website source is currently stored as `seven-motion.zip`. The repository has not yet been normalized into an editable source tree.
+## Local development
 
-## Planned structure
+Requires Node.js 20 or later.
 
-Once normalized, the repository should include the application source, dependency manifest, configuration, assets, and clear local-development instructions. The packaged archive should be replaced or retained only when there is a clear archival need.
+```bash
+npm install
+npm run dev
+```
 
-## Contributing
+## Quality checks
 
-1. Create a branch for each change.
-2. Keep changes focused and reviewable.
-3. Open a pull request for review.
+```bash
+npm test
+npm run build
+npm run preview
+```
+
+The smoke tests cover key page sections, mobile-navigation accessibility hooks, document metadata and responsive/accessibility CSS. The production build is generated into `dist/`.
+
+## Website content
+
+The site introduces the studio, selected portfolio concepts (Glowify AI, NailBook AI and SHADOWCHART AI), service areas, delivery approach and consultation model. Product descriptions are intentionally framed as portfolio concepts rather than claims of public availability.
+
+The current engagement information describes a free 30-minute consultation and a KES 5,000 discovery consultation for scoped implementation work.
+
+## Repository workflow
+
+1. Create a focused feature branch.
+2. Run `npm test` and `npm run build`.
+3. Open a pull request and review the preview deployment.
 4. Merge only after approval.
+5. Promote production only with explicit authorization.
 
-## Product portfolio
+## Archive policy
 
-- Glowify AI
-- NailBook AI
-- SHADOWCHART AI
-
-## Contact
-
-For project discussions, start with a consultation through the SEVEN-MOTION website.## Hi there 👋
-
-<!--
-**SEVEN-MOTION/seven-motion** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Do not remove `seven-motion.zip` until its source provenance has been checked and its contents are confirmed to be represented in the editable tree or preserved elsewhere.
